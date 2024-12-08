@@ -3,7 +3,7 @@ function highlightSection(sectionId) {
     targetSection.classList.add('highlight');
     setTimeout(() => {
         targetSection.classList.remove('highlight');
-    }, 1000);
+    }, 1200);
 }
 
 let mybutton = document.getElementById("top");
